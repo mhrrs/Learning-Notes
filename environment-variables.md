@@ -7,6 +7,7 @@
 When using env variables in fastapi with a docker setup, you create a schema using pydantic. 
 
 ################### settings.py ###############
+    
     from pydantic import BaseSettings
 
     class Settings(BaseSettings):
@@ -18,6 +19,7 @@ When using env variables in fastapi with a docker setup, you create a schema usi
             env_file = '.env'
 
     settings = Settings()
+    
 ###############################################
 
 
